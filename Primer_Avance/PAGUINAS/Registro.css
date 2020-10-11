@@ -1,0 +1,92 @@
+body{
+    background-color: powderblue;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo{
+    margin-top: 100px;
+    margin-left: 600px;
+    text-align: center;
+   
+    width: 300px;
+}
+
+div{
+    height: 400px;
+    width: 500px;
+    
+    background-color: rgb(253, 242, 246);
+    font-style: normal;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+h2.Nombre{
+    margin-top: 500px;
+}
+
+div>h2{
+
+color: rgb(31, 31, 31);
+font-family: 'Times New Roman', Times, serif;
+/* display: block; */
+}
+
+h2::after{
+content: ' *';
+color: red;
+}
+
+div>input[type= "text"]{
+    color: purple;
+    background-color: rgb(248, 240, 243);
+    border-radius: 5px;
+    height: 25px;
+width: 300px;
+
+
+}
+
+div>input[type= "email"]{
+    color: purple;
+    background-color: rgb(248, 240, 243);
+    border-radius: 5px;
+    height: 25px;
+    width: 300px;
+    
+    
+    }
+
+div>input[type= "password"]{
+    color: purple;
+    background-color: rgb(248, 240, 243);
+    border-radius: 5px;
+        height: 25px;
+        width: 300px;
+        
+        }
+
+/* FORM ERROR */
+/* input.form-error{
+border-left: 5px solid red;
+        } */
+
+div>input[type="button"]{
+height: 35px;
+width: 220px;
+margin-top: 50px;
+    font-size: 20px;
+    color:white;
+    background-color:pink;
+}
+
+/* p{
+    margin-top: 100px;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(250, 101, 126);
+   
+} */
