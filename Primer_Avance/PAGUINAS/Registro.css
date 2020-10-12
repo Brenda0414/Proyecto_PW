@@ -5,15 +5,33 @@ body{
 }
 
 .logo{
-    margin-top: 100px;
+    margin-top: 30px;
     margin-left: 600px;
     text-align: center;
    
     width: 300px;
 }
 
+.foto_log{
+width: 100px;
+align-items: center;
+margin-top: 10px;
+margin-right: 30px;
+border: black;
+}
+
+.Archivo{
+    margin-top: 10px;
+    align-items: center;
+}
+
+.URL{
+    margin-top: -10px;
+    align-items: center;
+}
+
 div{
-    height: 400px;
+    height: 500px;
     width: 500px;
     
     background-color: rgb(253, 242, 246);
@@ -21,7 +39,7 @@ div{
     text-align: center;
     border-radius: 10px;
     margin-left: 500px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 
@@ -74,16 +92,10 @@ border-left: 5px solid red;
 div>input[type="button"]{
 height: 35px;
 width: 220px;
-margin-top: 50px;
+margin-top: 30px;
+align-items: center;
     font-size: 20px;
     color:white;
     background-color:pink;
 }
 
-/* p{
-    margin-top: 100px;
-    font-size: 50px;
-    text-align: center;
-    color: rgb(250, 101, 126);
-   
-} */
