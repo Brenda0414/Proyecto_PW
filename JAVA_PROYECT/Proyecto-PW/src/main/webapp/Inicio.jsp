@@ -1,10 +1,17 @@
+<%-- 
+    Document   : Inicio
+    Created on : Dec 7, 2020, 9:41:53 AM
+    Author     : Stefania Cavazos
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html >
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UCreativity</title>
-    <link rel="stylesheet" href="Inicio.css">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Bienvenido a su cuenta U Creativity</title>
+        <link rel="stylesheet" href="assets/CSS/Inicio.css">
+        
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap" rel="stylesheet">
@@ -14,44 +21,38 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  
-
-
-</head>
-<body>
-  
- 
+    </head>
+    
+    <body>
+       
   <div class="nav">
    <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()" margin-left="20px">☰</button>
 
     <input type="search" id="site-search" name="q" aria-label="Search through site content" >
     <input type="button" value="Search" > 
-     <img class="logotipo"src="IMAGENES/logo.png" alt="logo">
+     <img class="logotipo" src="assets/IMAGENES/logo.png" alt="logo">
   </div>
-
-
-
-<!-- BARRA LATERAL -->
+        
+        <!-- BARRA LATERAL -->
 <div>
 <!-- Sidebar -->
 <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
   <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
-  <img class="Profile" src="IMAGENES/LOGIN.png" alt="login">
-  <a class="profile_text">View Profile</a>
-  <!-- <i class="fas fa-cloud" style="font-size:20px;color:red;"></i>
-   <i class="fas fa-heart" style="font-size:20px;color:red;"></i> -->
+  <img class="Profile" src="assets/IMAGENES/LOGIN.png" alt="login">
+  <a class="profile_text">Ver Perfil</a>
+ 
 <div class="slidebar">
 
   
-  <a  class="w3-bar-item w3-button">Comments</a>
+  <a  class="w3-bar-item w3-button">Comentarios</a>
 
   
-  <a  class="w3-bar-item w3-button">Favorites </a>
+  <a  class="w3-bar-item w3-button">Favoritos </a>
  
-  <a  class="w3-bar-item w3-button">Shop Cart</a>
+  <a  class="w3-bar-item w3-button">Carrito</a>
 </div>
 <div class="Logout">
-  <a  class="w3-bar-item w3-button">Log out</a>
+  <a  class="w3-bar-item w3-button">Cerrar Sesion</a>
 </div>
 
 </div>
@@ -66,7 +67,6 @@ function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
 }
 </script>
-
 
 
 <!-- CARRUSEL -->
@@ -109,6 +109,7 @@ function w3_close() {
           <p>Date 10/12/2020 </p>
         </div>
     </div>
+ 
 
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -119,19 +120,16 @@ function w3_close() {
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
-  </div>
-</div>
-</div>
-   
-
+        </div>
+    </div>
+</div> 
 
 <div class="apartado">
-<h2 >PROYECTS</h2>
+<h2 >PROYECTOS</h2>
 </div>
-
-
-<!-- CARDS -->
-<div class="row">
+  
+  <!-- CARDS -->
+<div class="row" col-4>
 <div class="card col-12 col-sm-6 col-md-4">
   <img src="https://cdnb.artstation.com/p/assets/images/images/012/137/669/large/lamuserie-antoine-girl-from-japan-6.jpg?1533220697" alt="Card 1" style="width:100%">
   <div class="container">
@@ -166,5 +164,6 @@ function w3_close() {
 
 </div>
 
-</body>
+        
+    </body>
 </html>
