@@ -10,6 +10,7 @@ package com.mycompany.proyecto.pw.model;
  * @author Stefania Cavazos
  */
 public class Usuario {
+    private int ID;
     private String user;
     private String email;
     private String password;
@@ -25,6 +26,7 @@ public class Usuario {
         this.imagen=imagen;
     }
 
+    
   
 
     public String getUser() {
