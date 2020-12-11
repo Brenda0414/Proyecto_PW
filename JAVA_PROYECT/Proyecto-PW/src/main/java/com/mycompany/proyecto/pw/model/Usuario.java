@@ -13,14 +13,16 @@ public class Usuario {
     private String user;
     private String email;
     private String password;
+    private String imagen;
 
     public Usuario() {
     }
 
-    public Usuario(String user, String email, String password) {
+    public Usuario(String user, String email, String password, String imagen) {
         this.user = user;
         this.email = email;
         this.password = password;
+        this.imagen=imagen;
     }
 
   
@@ -49,5 +51,15 @@ public class Usuario {
         this.password = password;
     }
     
+     public String getImagen() {
+        return imagen;
+    }
+
+    public void setImagen(String imagen) {
+        this.imagen = imagen;
+    }
     
 }
+   
+    
+

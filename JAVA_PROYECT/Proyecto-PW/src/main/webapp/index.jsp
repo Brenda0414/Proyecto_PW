@@ -23,9 +23,10 @@
     </head>
     
     <body>
-<!--        <form action="registroController" method="POST">-->
+     <form method="POST">
         <div>
     <div>
+        
         <a href="registro">
     <input type="button" id="button" value="Registrarse" >
   </a>
@@ -38,7 +39,7 @@
 </div>
 
   </div>
-        <!--</form>-->
+        </form>
         <img class= "logo" src="assets/IMAGENES/logo.png" alt="logotipo">
      
     </body>

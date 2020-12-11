@@ -39,7 +39,7 @@
 <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
   <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
   <img class="Profile" src="assets/IMAGENES/LOGIN.png" alt="login">
-  <a class="profile_text">Ver Perfil</a>
+  <a class="profile_text" href="perfil">Ver Perfil</a>
  
 <div class="slidebar">
 
@@ -52,7 +52,7 @@
   <a  class="w3-bar-item w3-button">Carrito</a>
 </div>
 <div class="Logout">
-  <a  class="w3-bar-item w3-button">Cerrar Sesion</a>
+    <a  class="w3-bar-item w3-button" href="iniciosesion">Cerrar Sesion</a>
 </div>
 
 </div>

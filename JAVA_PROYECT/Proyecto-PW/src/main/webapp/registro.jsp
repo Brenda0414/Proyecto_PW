@@ -16,34 +16,30 @@
     <body>
               <img class="logo" src="assets/IMAGENES/logo.png" alt="logotipo">
               
-<!--              <form action="registroController" method="POST">-->
+              <form action="registro/Register" method="POST">
               <div>
                   
             <h2>Usuario</h2> 
-            <input class="text" type="text" id="name" name="name" placeholder="User Name " required autocomplete="off">
+            <input class="text" type="text" id="name" name="Nombre" placeholder="User Name " required autocomplete="off">
 
             <h2> Correo Electronico</h2> 
-            <input class="email" type="email" id="email" name="email" placeholder="Email " required autocomplete="off">
+            <input class="email" type="Correo" id="Email" name="email" placeholder="Email " required autocomplete="off">
             
             <h2>Contraseña</h2> 
-            <input class="password" type="password" id="password" name="password" placeholder="Password" required autocomplete="off">
-            <p>
-            <input class="checkbox" type="checkbox" id="scales" name="checkbox" checked>
-             <p>Recordar Contraseña</p>
-              </p>     
-            <input class= "Archivo" type="file"
-            id="avatar" name="avatar"
-            accept="image/png, image/jpeg">
+            <input class="password" type="password" id="Password" name="Contra" placeholder="Password" required autocomplete="off">
+               
+            <input class= "Archivo"  type="file" name="Imagen" id="avatar" name="avatar" accept="image/png, image/jpeg">
             
-            <input class="foto_log" type="image" id="image" alt="Login"
-            src="assets/IMAGENES/LOGIN.png">
+            <input class="foto_log" type="image" id="image" src="assets/IMAGENES/LOGIN.png">
             
              
-            <a href="Inicio.jsp">
-              <input class="button" type="button"  id="button" value="Registrar">
-       </a>
+            <a> 
+              <input class="button" type="submit"  id="button" value="Registrar">
+            </a>
+            
+         
                   
               </div>
-<!--           </form>-->
+      </form>
     </body>
 </html>

@@ -26,7 +26,8 @@
             <p>Recordar Contraseña</p>
             <input type="checkbox" id="scales" name="scales" checked>
             
-            <a href="Inicio.jsp">
+            
+            <a href="CU">
             <input class="button" type="button" value="Entrar">
            </a>
          </div>
