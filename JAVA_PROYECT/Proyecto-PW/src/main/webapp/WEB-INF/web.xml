@@ -16,7 +16,10 @@
         <servlet-name>perfil</servlet-name>
         <jsp-file>/perfil.jsp</jsp-file>
     </servlet>
-    
+     <servlet>
+        <servlet-name>news</servlet-name>
+        <jsp-file>/news.jsp</jsp-file>
+    </servlet>
       
     <servlet-mapping>
         <servlet-name>registro</servlet-name>
@@ -42,6 +45,10 @@
    <servlet-mapping>
         <servlet-name>perfil</servlet-name>
         <url-pattern>/perfil</url-pattern>
+    </servlet-mapping> 
+      <servlet-mapping>
+        <servlet-name>news</servlet-name>
+        <url-pattern>/news</url-pattern>
     </servlet-mapping> 
      
    

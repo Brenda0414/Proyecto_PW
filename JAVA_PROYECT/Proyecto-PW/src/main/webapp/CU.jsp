@@ -84,29 +84,38 @@ function w3_close() {
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="https://cdna.artstation.com/p/assets/images/images/003/745/944/large/antoine-collignon-doragon-hanta-antoine-collignon-www-antoinecollignon-com.jpg?1477044901" alt="image1" style="width:100%;">
+          <a href="news">
+           <img src="https://cdna.artstation.com/p/assets/images/images/003/745/944/large/antoine-collignon-doragon-hanta-antoine-collignon-www-antoinecollignon-com.jpg?1477044901" alt="image1" style="width:100%;">
         <div class="carousel-caption">
           <h3>Imagen 1</h3>
           <p>Image Information</p>
           <p>Date 10/12/2020 </p>
+              
+          </a>
+          
+          
         </div>
       </div>
 
       <div class="item">
-        <img src="https://cdnb.artstation.com/p/assets/images/images/004/632/009/large/mario-wibisono-matsu-rika-web.jpg?1485162044" alt="image2" style="width:100%;">
+      <a href="news">
+          <img src="https://cdnb.artstation.com/p/assets/images/images/004/632/009/large/mario-wibisono-matsu-rika-web.jpg?1485162044" alt="image2" style="width:100%;">
         <div class="carousel-caption">
           <h3>Imagen 1</h3>
           <p>Image Information</p>
           <p>Date 10/12/2020 </p>
+      </a>
         </div>
       </div>
     
       <div class="item">
-        <img src="https://cdnb.artstation.com/p/assets/images/images/012/962/743/large/mario-wibisono-l5r-togashi-korimi.jpg?1537384285" alt="image3" style="width:100%;">
+        <a href="news">
+          <img src="https://cdnb.artstation.com/p/assets/images/images/012/962/743/large/mario-wibisono-l5r-togashi-korimi.jpg?1537384285" alt="image3" style="width:100%;">
         <div class="carousel-caption">
           <h3>Imagen 1</h3>
           <p>Image Information</p>
           <p>Date 10/12/2020 </p>
+        </a>
         </div>
     </div>
  
@@ -131,34 +140,47 @@ function w3_close() {
   <!-- CARDS -->
 <div class="row" col-4>
 <div class="card col-12 col-sm-6 col-md-4">
-  <img src="https://cdnb.artstation.com/p/assets/images/images/012/137/669/large/lamuserie-antoine-girl-from-japan-6.jpg?1533220697" alt="Card 1" style="width:100%">
+    <a href="news">
+         <img src="https://cdnb.artstation.com/p/assets/images/images/012/137/669/large/lamuserie-antoine-girl-from-japan-6.jpg?1533220697" alt="Card 1" style="width:100%">
   <div class="container">
     <h4><b>Name Image 1</b></h4> 
     <p>Autor</p> 
+    </a>
+   
   </div>
 </div>
 
 <div class="card col-12 col-sm-6 col-md-4">
-  <img src="https://cdnb.artstation.com/p/assets/images/images/005/668/553/large/lamuserie-antoine-girl-from-japan-13.jpg?1492864965" alt="Card 2" style="width:100%">
+    <a href="news">
+         <img src="https://cdnb.artstation.com/p/assets/images/images/005/668/553/large/lamuserie-antoine-girl-from-japan-13.jpg?1492864965" alt="Card 2" style="width:100%">
   <div class="container">
     <h4><b>Name Image 2 </b></h4> 
-    <p>Autor</p> 
+    <p>Autor</p>  
+    </a>
+  
   </div>
 </div>
 
 <div class="card col-12 col-sm-6 col-md-4">
-  <img src="https://cdnb.artstation.com/p/assets/images/images/016/826/691/large/jeremy-cerisy-jeremycerisy-masahi-finalrender.jpg?1553622051" alt="Card 3" style="width:100%">
+    <a href="news">
+        <img src="https://cdnb.artstation.com/p/assets/images/images/016/826/691/large/jeremy-cerisy-jeremycerisy-masahi-finalrender.jpg?1553622051" alt="Card 3" style="width:100%">
   <div class="container">
     <h4><b>Name Image 3</b></h4> 
     <p>Autor</p> 
+        
+    </a>
+    
   </div>
 </div>
 
 <div class="card col-12 col-sm-6 col-md-4">
-  <img src="https://cdnb.artstation.com/p/assets/images/images/030/183/297/large/thomas-dubois-sans-titre-1web.jpg?1599841655" alt="Card 4" style="width:100%">
+    <a href="news">
+        <img src="https://cdnb.artstation.com/p/assets/images/images/030/183/297/large/thomas-dubois-sans-titre-1web.jpg?1599841655" alt="Card 4" style="width:100%">
   <div class="container">
     <h4><b>Name Image 4</b></h4> 
     <p>Autor</p> 
+    </a>
+    
   </div>
 </div>
 
