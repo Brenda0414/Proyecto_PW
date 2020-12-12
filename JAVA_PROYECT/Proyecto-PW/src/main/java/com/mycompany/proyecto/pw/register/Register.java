@@ -5,6 +5,7 @@
  */
 package com.mycompany.proyecto.pw.register;
 
+import com.mycompany.proyecto.pw.DAO.UserDAO;
 import com.mycompany.proyecto.pw.model.Usuario;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -36,12 +37,18 @@ public class Register extends HttpServlet {
       String username=request.getParameter("Nombre");
        String email=request.getParameter("Correo");
       String pasword=request.getParameter("Contra");
-      String perfil=request.getParameter("Imagen");
-      Usuario user =new Usuario(username, email,pasword,perfil);
+      String imagen =request.getParameter("Imagen");
+      Usuario user =new Usuario(username, email,pasword,imagen);
+      if(UserDAO.SignInUser(user) == 1){
+    
+          response.sendRedirect("/PW/CU");
+      }
+      else{
+          
+      }
+      
       response.sendRedirect("/PW/CU");
-     
-     
-   
+      
     }
 
     /**

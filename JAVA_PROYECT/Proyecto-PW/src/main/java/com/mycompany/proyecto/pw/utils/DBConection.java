@@ -5,7 +5,7 @@
  */
 package com.mycompany.proyecto.pw.utils;
 
-import java.sql.Connection;
+import java.sql.CallableStatement;
 import java.sql.SQLException;
 import org.apache.commons.dbcp.BasicDataSource;
 
@@ -13,7 +13,7 @@ import org.apache.commons.dbcp.BasicDataSource;
  *
  * @author STRIX GAMING
  */
-public class DBConection {
+public class DbConection {
     // Creamos el objeto conexion
     private static final BasicDataSource dataSource = new BasicDataSource();
 
@@ -25,11 +25,11 @@ public class DBConection {
         // la ruta que es localhost puerto 3306
         // el nombre de la base de datos que es pwDB
         // lo demas son parametros para que no tengan problemas con zonas horarias
-        dataSource.setUrl("jdbc:mysql://localhost:3306/pw02?useUnicode=true&useJDBCCompliantTimeZoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/proyectopw?useUnicode=true&useJDBCCompliantTimeZoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC");
         // El nombre de usuario de su conexion
-        dataSource.setUsername("root");
+        dataSource.setUsername("brenda");
         // La contraseña del usuario de su conexion
-        dataSource.setPassword("root");
+        dataSource.setPassword("brenda0414");
         // dataSource.setMaxIdle(0);
         // dataSource.setMaxActive(100);
     }
@@ -41,8 +41,8 @@ public class DBConection {
      * @return Conexion a Base de datos
      * @throws SQLException
      */
-    public static Connection getConnection() throws SQLException {
-        return dataSource.getConnection();
+    public static DbConection getConnection() throws SQLException {
+        return (DbConection) dataSource.getConnection();
     }
 
     /**
@@ -52,6 +52,10 @@ public class DBConection {
      */
     public static void closeConnection() throws SQLException {
         dataSource.close();
+    }
+
+    public CallableStatement prepareCall(String call_registro) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
 

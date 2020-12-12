@@ -19,16 +19,18 @@ public class Usuario {
     public Usuario() {
     }
 
-    public Usuario(String user, String email, String password, String imagen) {
+    public Usuario(String user, String email, String password,String imagen) {
         this.user = user;
         this.email = email;
         this.password = password;
         this.imagen=imagen;
     }
 
+    public Usuario(int ID, String user) {
+        this.ID = ID;
+        this.user = user;
+    }
     
-  
-
     public String getUser() {
         return user;
     }
@@ -53,13 +55,17 @@ public class Usuario {
         this.password = password;
     }
     
-     public String getImagen() {
+    public String getImagen() {
         return imagen;
     }
 
     public void setImagen(String imagen) {
         this.imagen = imagen;
     }
+
+    
+  
+
     
 }
    
